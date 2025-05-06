@@ -1,4 +1,4 @@
-import express from 'express';
+import express from 'express'
 import { loginUser, registerUser } from '../controllers/userController.js';
 import { body } from 'express-validator';
 

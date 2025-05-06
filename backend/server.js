@@ -7,7 +7,7 @@ const port = 8080
 const app = express()
 db()
 app.use(cors({
-    origin:['http://localhost:5173', 'https://crm-project-psi-snowy.vercel.app'],
+    origin:['https://crm-project-psi-snowy.vercel.app','http://localhost:5173'],
     credentials: true
 }))
 app.use(express.json())

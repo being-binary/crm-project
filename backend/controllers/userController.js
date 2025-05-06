@@ -4,7 +4,6 @@ import jwt from 'jsonwebtoken'
 const salt = genSaltSync(10)
 import usercollection from '../model/userCollection.js'
 import { validationResult } from "express-validator"
-import mongoose from "mongoose"
 
 
 const registerUser = async (req, res) => {
