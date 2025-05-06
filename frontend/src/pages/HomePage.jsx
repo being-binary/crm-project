@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import Block from '../components/Block';
 import Sidebar from '../components/Sidebar';
-import Form from '../components/form';
+import Form from '../components/Form';
 import Documents from '../components/Documents';
 const HomePage = () => {
     const [files, setFiles] = useState([]);
