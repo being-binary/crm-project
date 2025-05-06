@@ -1,6 +1,5 @@
 import express from 'express'
 import cors from 'cors'
-import { useReducer } from 'react'
 import db from './database/mongoose.js'
 import userRouter from './routes/userRouter.js'
 import employeeRouter from './routes/employeeRouter.js'
@@ -8,7 +7,7 @@ const port = 8080
 const app = express()
 db()
 app.use(cors({
-    origin:['http://localhost:5173', 'https://social-media-app-amber-eight.vercel.app'],
+    origin:['http://localhost:5173', 'https://crm-project-psi-snowy.vercel.app'],
     credentials: true
 }))
 app.use(express.json())
